@@ -25,6 +25,7 @@ export function SocialList({}) {
       <style jsx>{`
         a {
           display: inline-block;
+          color: #cbe3e7;
         }
         a:not(:last-child) {
           margin-right: 2em;

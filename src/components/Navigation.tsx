@@ -12,6 +12,9 @@ export default function Navigation() {
       <div className={"container " + (active ? "active" : "")}>
         <ul>
           <li>
+                <a href="https://clp.is">home</a>
+          </li>
+          <li>
             <Link href="/">
               <a className={router.pathname === "/" ? "active" : null}>about</a>
             </Link>
@@ -43,7 +46,7 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
+              background: #27263c;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -64,7 +67,8 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #dbf3f7;
+              font-style:bold;
             }
 
             @media (min-width: 769px) {
